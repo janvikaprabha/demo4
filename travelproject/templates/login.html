@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <style>
+        body {
+               background-image: url('https://media.istockphoto.com/id/1394452639/vector/coputer-internet-cyber-security-background-cyber-crime-vector-illustration-digital-lock.jpg?s=612x612&w=0&k=20&c=KD48hTGER5qp-nYJ95R1-XkJM67bLtxFgNSfzdzs9iA=');
+               background-repeat: no-repeat;
+               background-size: 1900px;
+  width: 300px;
+  height: 300px;
+              }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="login" method="post">
+    {%csrf_token %}
+     <input type="text" name="username" placeholder="Username"><br>
+    <input type="password" name="password" placeholder="Enter your password"><br>
+    <input type="submit">
+</form>
+</body>
+</html>
